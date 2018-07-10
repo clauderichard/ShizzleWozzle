@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ShizzleWozzle" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ShizzleWozzle" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ShizzleWozzle" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Unit filename="src/SwGameState.cpp" />
+		<Unit filename="src/SwGameState.h" />
+		<Unit filename="src/SwZoom.cpp" />
+		<Unit filename="src/SwZoom.h" />
+		<Unit filename="src/a_game_map.cpp" />
+		<Unit filename="src/a_game_map.h" />
+		<Unit filename="src/globals.cpp" />
+		<Unit filename="src/globals.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/swPhysics.cpp" />
+		<Unit filename="src/swPhysics.hpp" />
+		<Unit filename="src/sw_camera.h" />
+		<Unit filename="src/sw_game_state_master.cpp" />
+		<Unit filename="src/sw_pde_plane.h" />
+		<Unit filename="src/sw_room.cpp" />
+		<Unit filename="src/sw_room.h" />
+		<Unit filename="src/sw_room_state.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
